@@ -4,7 +4,6 @@
   "description": "tslint rules for jasmine",
   "main": "index.js",
   "scripts": {
-    "postinstall": "typings install",
     "typings": "typings",
     "release": "rimraf dist && tsc && npm t",
     "test": "rimraf dist && tsc && mocha --compilers ts:ts-node/register",
